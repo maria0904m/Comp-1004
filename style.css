@@ -1,0 +1,58 @@
+﻿body {
+    font-family: Calibri;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, purple, yellow);
+}
+
+
+.container {
+    text-align: center;
+    background-color: purple;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Set a fixed width */
+    margin: auto; /* Center the container horizontally */
+}
+
+
+.password-label {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white; /* Set the color to white */
+}
+
+#password {
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+}
+
+#strength-indicator {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bar {
+    flex-grow: 1;
+    height: 10px;
+    background-color: #e0e0e0;
+    margin: 0 2px;
+}
+
+#password-strength-text {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.requirements-not-met {
+    color: white;
+}
+
+#togglePasswordVisibility {
+    margin-top: 10px;
+}
