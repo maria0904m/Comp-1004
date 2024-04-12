@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Strength Checker</title>
+</head>
+<body>
+    <div class="container">
+        <label for="password" class="password-label">Check your password here:</label>
+        <input type="password" id="password" oninput="checkPasswordStrength()">
+        <div id="strength-indicator">
+            <span class="bar" id="bar-1"></span>
+            <span class="bar" id="bar-2"></span>
+            <span class="bar" id="bar-3"></span>
+            <span class="bar" id="bar-4"></span>
+            <span class="bar" id="bar-5"></span>
+        </div>
+        <p id="password-strength-text"></p>
+        <p id="requirements-not-met" class="requirements-not-met"></p>
+        <button id="togglePasswordVisibility" onclick="togglePasswordVisibility()">Show</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
