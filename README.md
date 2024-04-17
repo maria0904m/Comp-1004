@@ -4,6 +4,7 @@ Description
 The Password Strength Checker is a single-page web application designed to help users evaluate the strength of their passwords. It provides visual feedback and indicators to assess the complexity and security level of passwords.
 
 Features
+
 •	Real-time password strength evaluation
 
 •	Visual indicators for weak, moderate, and strong passwords
@@ -14,8 +15,11 @@ Features
 
 
 Technologies used
+
 1.	HTML: Provides the structure and content of the web page.
+
 2.	CSS: Styles the elements and layout of the web page.
+   
 3.	JavaScript: Implements the password strength checking functionality and user interactions.
 
 Files
