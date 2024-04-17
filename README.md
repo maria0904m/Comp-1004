@@ -1,6 +1,7 @@
 # Comp-1004
 
 Description
+
 The Password Strength Checker is a single-page web application designed to help users evaluate the strength of their passwords. It provides visual feedback and indicators to assess the complexity and security level of passwords.
 
 Features
@@ -28,6 +29,10 @@ Files
 3.	script.js: JavaScript file for implementing password strength checking and user interactions.
 
 Usage
+
 Clone the repository to your local machine.
+
 Open the “index.html” file in your web browser.
+
 Enter a password in the input field to see the strength evaluation.
+
